@@ -12,6 +12,8 @@ namespace ContextBountAttributeTest
         {
             FileLoops fl = new FileLoops("abc");
             fl.Create();
+            fl.Delete();
+
             Console.ReadLine();
         }
     }

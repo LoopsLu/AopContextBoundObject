@@ -9,6 +9,7 @@ namespace ContextBountAttributeTest
     public interface IFileAccess
     {
         bool Create();
+        void Delete();
     }
 
 }
