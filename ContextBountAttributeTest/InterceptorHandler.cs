@@ -24,7 +24,7 @@ namespace ContextBountAttributeTest
             return null;
         }
 
-        //同步處理方法
+        //同步處理方法 
         public IMessage SyncProcessMessage(IMessage msg)
         {
             IMessage retMsg = null;
